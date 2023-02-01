@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    background-color:hsl(212,45%,89%);
+}
+
+#container {
+    background-color: aliceblue;
+    padding-top: 20px;
+    width: 278px;
+    max-height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+
+div img {
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 1px rgba(44, 44, 44, 0.5);
+}
+
+div h1 {
+    font-size: 21px;
+    font-family: 'Itim', cursive;
+}
+
+div p {
+    font-size: 15px;
+    font-weight: 450;
+    font-family: 'Itim', cursive;
+    color: rgb(131, 130, 130);
+    margin-bottom: 15px;
+
+}
+
+
